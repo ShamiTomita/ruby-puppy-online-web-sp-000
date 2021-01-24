@@ -21,7 +21,7 @@ class Dog
   
   def self.print_all 
     @@all.each do 
-      print "#{name}"
+      print "#{@name}"
     end 
   end 
 end 
